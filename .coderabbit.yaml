@@ -1,0 +1,49 @@
+# CodeRabbit 설정 — SWEA 코딩테스트 스터디용
+# 문서: https://docs.coderabbit.ai/getting-started/configure-coderabbit
+# "코드"가 studies/**/*.md 안의 코드펜스에 들어있는 구조라, 리뷰 관점을 코테용으로 재정의한다.
+
+language: "ko-KR"
+
+tone_instructions: >
+  코딩테스트(SWEA) 풀이를 리뷰하는 알고리즘 멘토처럼 답한다.
+  이미 채점을 통과한 정답 코드지만, 복잡도 오류·비효율·엣지 케이스 누락은
+  근거(복잡도 계산·반례)를 들어 분명하게 지적한다. 두루뭉술한 칭찬은 하지 않는다.
+
+reviews:
+  profile: "assertive"             # 깐깐하게 — 문제점을 적극적으로 파고든다
+  request_changes_workflow: false  # 통과 차단 조건으로는 쓰지 않음 (리뷰어 자동배정과 병행)
+  high_level_summary: true
+  poem: false
+  review_status: true
+  auto_review:
+    enabled: true
+    drafts: false
+  path_instructions:
+    - path: "studies/**/*.md"
+      instructions: >
+        이 파일은 SWEA 코딩테스트 풀이다. 아래 관점으로 깐깐하게 리뷰하라.
+        1) 문서에 명시된 '시간 복잡도'와 '공간 복잡도'가 5번 실제 코드와 일치하는지
+           직접 계산해 검증한다. 다르면 올바른 복잡도를 계산 근거와 함께 지적한다.
+        2) SWEA는 시간 제한이 빡빡하므로 입력 최대치 기준 TLE 위험이 있으면
+           반드시 지적하고 더 빠른 알고리즘/자료구조를 제안한다.
+        3) 엣지 케이스(경계값, 빈 입력, 정수 오버플로우, 인덱스 범위,
+           방문처리 누락, 재귀 깊이 등)를 놓쳤는지 구체적 반례로 점검한다.
+        4) 통과한 코드라도 더 간결하거나 관용적인 구현이 있으면 대안 코드로 제안한다.
+           단, 정답 자체를 부정하지는 말 것.
+        5) 5요소(접근/시간 복잡도/공간 복잡도/핵심 풀이/실제 코드) 중 비어있거나
+           부실한 항목이 있으면 지적한다.
+        6) 변수명·가독성 개선점이 있으면 짧게 덧붙인다.
+        코드펜스의 언어 태그가 실제 코드 언어와 맞는지도 확인한다.
+        문서에 명시된 접근 방법과 실제 코드의 로직이 어긋나면 그 불일치를 지적한다.
+
+  # 풀이 파일만 리뷰 — 템플릿/문서/스크립트/워크플로우 변경은 리뷰 대상에서 제외해 노이즈를 줄인다.
+  path_filters:
+    - "studies/**/*.md"
+    - "!templates/**"
+    - "!docs/**"
+    - "!scripts/**"
+    - "!.github/**"
+    - "!**/README.md"
+
+chat:
+  auto_reply: true
