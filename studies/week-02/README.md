@@ -1,29 +1,34 @@
-# 📅 Week 02 — 스택 · 큐
-
-> 선형 자료구조(스택/큐)의 동작 원리와 활용을 익힙니다.
+# 📅 Week 02
 
 ## 🎯 이번 주 목표
-**권장 2문제 + 선택 5문제 = 총 7문제** (약 하루 1문제 → 매일 꾸준히!)
+**SWEA 4문제** 풀이 & PR 제출
 
-## ⭐ 권장 문제 (공통 · 모두 풀기)
-| 구분 | 문제 | 난이도 | 링크 |
-|:---:|:---|:---:|:---|
-| 권장 ① | 올바른 괄호 | 🟡 Lv.2 | https://school.programmers.co.kr/learn/courses/30/lessons/12909 |
-| 권장 ② | 기능개발 | 🟡 Lv.2 | https://school.programmers.co.kr/learn/courses/30/lessons/42586 |
+## 🗓️ 일정 (정상 주기)
 
-## 🎒 선택 문제 (본인 레벨에 맞게 5개 이상)
-> **플랫폼 자유** — 프로그래머스·백준·SWEA·LeetCode 등 어디서든, 같은 유형이면 OK. 아래는 추천 예시입니다.
-- 같은 숫자는 싫어 (🟢 Lv.1, 12906)
-- 크레인 인형뽑기 게임 (🟢 Lv.1, 64061)
-- 프린터 (🟡 Lv.2, 42587)
-- 다리를 지나는 트럭 (🟡 Lv.2, 42583)
-- 주식가격 (🟡 Lv.2, 42584)
-- 짝지어 제거하기 (🟡 Lv.2, 12973)
+| 요일 | 할 일 |
+|:---:|:---|
+| 월 · 화 · 수 · 목 (07-27 ~ 07-30) | 아래 문제 풀이 → PR 제출 |
+| 금 (07-31) | 자동 배정된 리뷰어가 리뷰 남기기 |
+
+## ⭐ 배정 문제 (SWEA · 전원 공통)
+
+| 번호 | 문제 | 난이도 | 비고 | 링크 |
+|:---:|:---|:---:|:---:|:---|
+| 26071 | 블록 제거 게임 | D4 | 출제 | https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZwmCVWq3uLHBIT3 |
+| 26070 | 보석 수집 로봇 | D4 | 출제 | https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZwmBfua3q3HBIT3 |
+| 5658 | 보물상자 비밀번호 | - | | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo |
+| 5656 | 벽돌 깨기 | - | | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo |
+
+> 문제 출처: [`docs/PROBLEM_BANK.md`](../../docs/PROBLEM_BANK.md) (W02로 배정된 행)
 
 ## 📝 제출 방법
+
 1. `studies/week-02/<깃허브ID>/` 폴더 생성
-2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성
-3. PR → 리뷰 → 머지 (마감 전까지)
+2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성 (파일명: `<문제번호>-<문제이름>.md`)
+3. PR 생성 — 제목 예시: `[W02] DevJunz - SWEA 4문제`
+   - 가능하면 문제를 푼 날(월~목)에 맞춰 그날그날 PR을 올리세요. 놓친 날이 있다면 나중에 몰아서 제출해도 괜찮습니다.
+4. PR을 열면 리뷰어가 자동으로 배정됩니다 (매주 로테이션)
+5. 금요일까지 배정받은 PR에 리뷰
 
 ## 🗓️ 마감
-- **일요일 23:59** (날짜는 스터디장이 기입)
+- **2026-07-31(금) 23:59**

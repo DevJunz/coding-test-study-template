@@ -1,28 +1,34 @@
-# 📅 Week 03 — 정렬
-
-> 내장 정렬을 자유자재로 쓰고, 정렬 기준(key)을 커스터마이징하는 법을 익힙니다.
+# 📅 Week 03
 
 ## 🎯 이번 주 목표
-**권장 2문제 + 선택 5문제 = 총 7문제** (약 하루 1문제 → 매일 꾸준히!)
+**SWEA 4문제** 풀이 & PR 제출
 
-## ⭐ 권장 문제 (공통 · 모두 풀기)
-| 구분 | 문제 | 난이도 | 링크 |
+## 🗓️ 일정 (정상 주기)
+
+| 요일 | 할 일 |
+|:---:|:---|
+| 월 · 화 · 수 · 목 (08-03 ~ 08-06) | 아래 문제 풀이 → PR 제출 |
+| 금 (08-07) | 자동 배정된 리뷰어가 리뷰 남기기 |
+
+## ⭐ 배정 문제 (SWEA · 전원 공통)
+
+| 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 권장 ① | K번째수 | 🟢 Lv.1 | https://school.programmers.co.kr/learn/courses/30/lessons/42748 |
-| 권장 ② | 가장 큰 수 | 🟡 Lv.2 | https://school.programmers.co.kr/learn/courses/30/lessons/42746 |
+| 5653 | 줄기세포배양 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo |
+| 5650 | 핀볼 게임 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo |
+| 5648 | 원자 소멸 시뮬레이션 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRFInKex8DFAUo |
+| 5644 | 무선 충전 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo |
 
-## 🎒 선택 문제 (본인 레벨에 맞게 5개 이상)
-> **플랫폼 자유** — 프로그래머스·백준·SWEA·LeetCode 등 어디서든, 같은 유형이면 OK. 아래는 추천 예시입니다.
-- 정수 내림차순으로 배치하기 (🟢 Lv.1, 12933)
-- 문자열 내 마음대로 정렬하기 (🟢 Lv.1, 12915)
-- 문자열 내림차순으로 배치하기 (🟢 Lv.1, 12917)
-- 두 개 뽑아서 더하기 (🟢 Lv.1, 68644)
-- H-Index (🟡 Lv.2, 42747)
+> 문제 출처: [`docs/PROBLEM_BANK.md`](../../docs/PROBLEM_BANK.md) (W03로 배정된 행)
 
 ## 📝 제출 방법
+
 1. `studies/week-03/<깃허브ID>/` 폴더 생성
-2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성
-3. PR → 리뷰 → 머지 (마감 전까지)
+2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성 (파일명: `<문제번호>-<문제이름>.md`)
+3. PR 생성 — 제목 예시: `[W03] DevJunz - SWEA 4문제`
+   - 가능하면 문제를 푼 날(월~목)에 맞춰 그날그날 PR을 올리세요. 놓친 날이 있다면 나중에 몰아서 제출해도 괜찮습니다.
+4. PR을 열면 리뷰어가 자동으로 배정됩니다 (매주 로테이션)
+5. 금요일까지 배정받은 PR에 리뷰
 
 ## 🗓️ 마감
-- **일요일 23:59** (날짜는 스터디장이 기입)
+- **2026-08-07(금) 23:59**

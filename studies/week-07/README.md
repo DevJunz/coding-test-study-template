@@ -1,28 +1,34 @@
-# 📅 Week 07 — BFS (너비 우선 탐색)
-
-> 큐 기반의 레벨 단위 탐색으로 최단 거리 문제를 해결합니다.
+# 📅 Week 07
 
 ## 🎯 이번 주 목표
-**권장 2문제 + 선택 5문제 = 총 7문제** (약 하루 1문제 → 매일 꾸준히!)
+**SWEA 4문제** 풀이 & PR 제출
 
-## ⭐ 권장 문제 (공통 · 모두 풀기)
-| 구분 | 문제 | 난이도 | 링크 |
+## 🗓️ 일정 (정상 주기)
+
+| 요일 | 할 일 |
+|:---:|:---|
+| 월 · 화 · 수 · 목 (08-31 ~ 09-03) | 아래 문제 풀이 → PR 제출 |
+| 금 (09-04) | 자동 배정된 리뷰어가 리뷰 남기기 |
+
+## ⭐ 배정 문제 (SWEA · 전원 공통)
+
+| 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 권장 ① | 게임 맵 최단거리 | 🟡 Lv.2 | https://school.programmers.co.kr/learn/courses/30/lessons/1844 |
-| 권장 ② | 미로 탈출 | 🟡 Lv.2 | https://school.programmers.co.kr/learn/courses/30/lessons/159993 |
+| 2115 | 벌꿀채취 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu |
+| 2112 | 보호 필름 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu |
+| 2105 | 디저트 카페 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu |
+| 1953 | 탈주범 검거 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq |
 
-## 🎒 선택 문제 (본인 레벨에 맞게 5개 이상)
-> **플랫폼 자유** — 프로그래머스·백준·SWEA·LeetCode 등 어디서든, 같은 유형이면 OK. 아래는 추천 예시입니다.
-- 백준 2178 · 미로 탐색 (BFS 기초)
-- 백준 7576 · 토마토
-- 단어 변환 (🟠 Lv.3, 43163)
-- 네트워크 (🟠 Lv.3, 43162)
-- 아이템 줍기 (🟠 Lv.3, 87694)
+> 문제 출처: [`docs/PROBLEM_BANK.md`](../../docs/PROBLEM_BANK.md) (W07로 배정된 행)
 
 ## 📝 제출 방법
+
 1. `studies/week-07/<깃허브ID>/` 폴더 생성
-2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성
-3. PR → 리뷰 → 머지 (마감 전까지)
+2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성 (파일명: `<문제번호>-<문제이름>.md`)
+3. PR 생성 — 제목 예시: `[W07] DevJunz - SWEA 4문제`
+   - 가능하면 문제를 푼 날(월~목)에 맞춰 그날그날 PR을 올리세요. 놓친 날이 있다면 나중에 몰아서 제출해도 괜찮습니다.
+4. PR을 열면 리뷰어가 자동으로 배정됩니다 (매주 로테이션)
+5. 금요일까지 배정받은 PR에 리뷰
 
 ## 🗓️ 마감
-- **일요일 23:59** (날짜는 스터디장이 기입)
+- **2026-09-04(금) 23:59**

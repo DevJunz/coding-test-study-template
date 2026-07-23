@@ -1,29 +1,34 @@
-# 📅 Week 04 — 이분 탐색 (매개변수 탐색)
-
-> "답을 이분 탐색"하는 매개변수 탐색을 익힙니다.
-> 프로그래머스 이분탐색은 Lv.3부터라, **권장 ①은 백준 기초 문제**로 부담 없이 시작합니다.
+# 📅 Week 04
 
 ## 🎯 이번 주 목표
-**권장 2문제 + 선택 5문제 = 총 7문제** (약 하루 1문제 → 매일 꾸준히!)
+**SWEA 4문제** 풀이 & PR 제출
 
-## ⭐ 권장 문제 (공통 · 모두 풀기)
-| 구분 | 문제 | 난이도 | 링크 |
+## 🗓️ 일정 (정상 주기)
+
+| 요일 | 할 일 |
+|:---:|:---|
+| 월 · 화 · 수 · 목 (08-10 ~ 08-13) | 아래 문제 풀이 → PR 제출 |
+| 금 (08-14) | 자동 배정된 리뷰어가 리뷰 남기기 |
+
+## ⭐ 배정 문제 (SWEA · 전원 공통)
+
+| 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 권장 ① | 백준 1920 · 수 찾기 (이분탐색 기초) | 🔵 백준 | https://www.acmicpc.net/problem/1920 |
-| 권장 ② | 입국심사 (매개변수 탐색 대표) | 🟠 Lv.3 | https://school.programmers.co.kr/learn/courses/30/lessons/43238 |
+| 4131 | 활주로 건설 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJfikDKDXkDFAXc |
+| 4130 | 특이한 자석 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJfhgr6DTQDFAXc |
+| 4128 | 요리사 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJR5apqD0EDFAXc |
+| 4123 | 숫자 만들기 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJRxtsKDKIDFAXc |
 
-## 🎒 선택 문제 (본인 레벨에 맞게 5개 이상)
-> **플랫폼 자유** — 프로그래머스·백준·SWEA·LeetCode 등 어디서든, 같은 유형이면 OK. 아래는 추천 예시입니다.
-- 백준 2805 · 나무 자르기 (매개변수 탐색 입문)
-- 백준 1654 · 랜선 자르기
-- 백준 2110 · 공유기 설치
-- 징검다리 건너기 (🟠 Lv.3, 64062)
-- 징검다리 (🔴 Lv.4, 43236)
+> 문제 출처: [`docs/PROBLEM_BANK.md`](../../docs/PROBLEM_BANK.md) (W04로 배정된 행)
 
 ## 📝 제출 방법
+
 1. `studies/week-04/<깃허브ID>/` 폴더 생성
-2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성
-3. PR → 리뷰 → 머지 (마감 전까지)
+2. [풀이 템플릿](../../templates/SOLUTION_TEMPLATE.md)으로 각 문제 5요소 작성 (파일명: `<문제번호>-<문제이름>.md`)
+3. PR 생성 — 제목 예시: `[W04] DevJunz - SWEA 4문제`
+   - 가능하면 문제를 푼 날(월~목)에 맞춰 그날그날 PR을 올리세요. 놓친 날이 있다면 나중에 몰아서 제출해도 괜찮습니다.
+4. PR을 열면 리뷰어가 자동으로 배정됩니다 (매주 로테이션)
+5. 금요일까지 배정받은 PR에 리뷰
 
 ## 🗓️ 마감
-- **일요일 23:59** (날짜는 스터디장이 기입)
+- **2026-08-14(금) 23:59**

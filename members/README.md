@@ -1,18 +1,23 @@
 # 👥 멤버 소개
 
-각 멤버는 [`_TEMPLATE.md`](_TEMPLATE.md)를 복사해 `members/<깃허브ID>.md`로 자기소개를 작성하고, 아래 표에 한 줄을 추가하세요.
+각 멤버는 [`_TEMPLATE.md`](_TEMPLATE.md)를 참고해 자기소개를 채워넣으세요.
 
 | 프로필 | 이름 | 깃허브 | 주력 언어 | 목표 | 소개 |
 |:---:|:---:|:---:|:---:|:---|:---:|
-| 🧑‍💻 | 홍길동(예시) | [@gildong](https://github.com/gildong) | Python | 상반기 공채 코테 통과 | [소개](gildong.md) |
-| ➕ | *여기에 추가* | | | | |
-
-> 예시 행은 첫 멤버가 등록되면 지워주세요.
+| 🧑‍💻 | 최준환 | [@DevJunz](https://github.com/DevJunz) | - | - | [소개](DevJunz.md) |
+| 🧑‍💻 | 이예서 | [@yeseoLee](https://github.com/yeseoLee) | - | - | [소개](yeseoLee.md) |
+| 🧑‍💻 | 민수영 | [@Suyoung-Min](https://github.com/Suyoung-Min) | - | - | [소개](Suyoung-Min.md) |
+| 🧑‍💻 | 김태형 | [@clarityth](https://github.com/clarityth) | - | - | [소개](clarityth.md) |
+| 🧑‍💻 | 현민구 | [@min9u](https://github.com/min9u) | - | - | [소개](min9u.md) |
+| ➕ | *새 멤버 추가* | | | | |
 
 ---
 
 ### 등록 방법
+
 1. `_TEMPLATE.md` 복사 → `<깃허브ID>.md`
 2. 내용 작성
 3. 위 표에 한 줄 추가
 4. 커밋: `docs: <깃허브ID> 자기소개 추가`
+
+새 멤버가 합류하면 [`.github/workflows/auto-assign-reviewer.yml`](../.github/workflows/auto-assign-reviewer.yml)의 `members` 배열도 함께 갱신해야 리뷰어 로테이션에 포함됩니다.
