@@ -59,10 +59,13 @@
 ├── studies/
 │   ├── README.md                   # 📊 주차별 진행 현황 체크표
 │   └── week-01/                    # 주차별 풀이 폴더 (필요할 때마다 추가)
+├── scripts/
+│   └── update-current-week.js      # 📅 "이번 주 문제" 계산 스크립트
 ├── .github/
 │   ├── PULL_REQUEST_TEMPLATE.md
 │   └── workflows/
-│       └── auto-assign-reviewer.yml  # 🔁 리뷰어 자동 로테이션
+│       ├── auto-assign-reviewer.yml  # 🔁 리뷰어 자동 로테이션
+│       └── update-current-week.yml   # 📅 이번 주 문제 자동 갱신 (매주 월요일)
 └── .gitmessage                     # 커밋 템플릿
 ```
 
@@ -76,7 +79,7 @@
    git config commit.template .gitmessage
    ```
 3. **사용법 정독** — [`docs/GUIDE.md`](docs/GUIDE.md) 읽기
-4. **이번 주 문제 확인** — [`studies/week-01/README.md`](studies/week-01/README.md)
+4. **이번 주 문제 확인** — 아래 [📅 이번 주 문제](#-이번-주-문제) 섹션 (자동 갱신됨)
 5. **첫 문제 풀기** — [`templates/SOLUTION_TEMPLATE.md`](templates/SOLUTION_TEMPLATE.md)로 작성 → PR
 
 ---
@@ -103,16 +106,17 @@
 
 ---
 
-## 📅 첫 주 (Week 01) 안내
+## 📅 이번 주 문제
 
-이번 주는 스터디 시작 주라 **목요일 하루만 가능** → 문제 1개만 진행하는 단축 주입니다.
+<!-- CURRENT-WEEK:START (자동 생성 - 직접 수정하지 마세요. .github/workflows/update-current-week.yml 이 매주 월요일 자동 갱신합니다) -->
+**W01** ([`studies/week-01/README.md`](studies/week-01/README.md)) · 마감 2026-07-24(금) 23:59
 
-| 날짜 | 요일 | 할 일 |
-|:---:|:---:|:---|
-| 2026-07-23 | 목 | 배정 문제 1개 풀이 & PR 제출 |
-| 2026-07-24 | 금 | 자동 배정된 PR 리뷰 |
+| 번호 | 문제 | 난이도 | 링크 |
+|:---:|:---|:---:|:---|
+| 1767 | 프로세서 연결하기 | D4 | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf |
+<!-- CURRENT-WEEK:END -->
 
-문제 목록은 👉 [`studies/week-01/README.md`](studies/week-01/README.md)
+> 이 섹션은 매주 월요일 00:00(KST)에 GitHub Actions가 [`docs/PROBLEM_BANK.md`](docs/PROBLEM_BANK.md) 기준으로 자동 갱신합니다. 필요하면 Actions 탭에서 `update-current-week` 워크플로우를 수동 실행해도 됩니다.
 
 ## 🗓️ 전체 주차 계획 (W01~W08)
 

@@ -39,6 +39,16 @@ studies/week-XX/<깃허브ID>/<문제번호>-<문제이름>.md
 
 멤버가 추가/탈퇴하면 워크플로우 파일의 `members` 배열만 수정하면 됩니다. 별도의 상태 파일이나 수동 개입이 필요 없습니다.
 
+## 📅 "이번 주 문제" 자동 갱신
+
+루트 [`README.md`](../README.md)의 "이번 주 문제" 섹션은 사람이 손으로 바꾸지 않습니다.
+
+- `.github/workflows/update-current-week.yml`이 **매주 월요일 00:00(KST)** 에 실행됩니다.
+- `scripts/update-current-week.js`가 오늘 날짜로 몇 주차인지 계산하고, [`docs/PROBLEM_BANK.md`](PROBLEM_BANK.md)에서 그 주차(`배정 주차` 열)에 해당하는 문제를 찾아 README를 갱신·커밋·푸시합니다.
+- 해당 주차 문제가 아직 `PROBLEM_BANK.md`에 배정되지 않았다면 "아직 배정되지 않았습니다" 안내로 대체됩니다.
+- Actions 탭에서 `Update Current Week` 워크플로우를 수동 실행(workflow_dispatch)할 수도 있습니다.
+- README의 `<!-- CURRENT-WEEK:START -->` ~ `<!-- CURRENT-WEEK:END -->` 사이는 자동 생성 영역이므로 직접 수정해도 다음 실행 때 덮어써집니다.
+
 ## 📊 진행 현황 갱신
 
 매주 리뷰가 끝나면 [`studies/README.md`](../studies/README.md)의 체크표를 갱신합니다.

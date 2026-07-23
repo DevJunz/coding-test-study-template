@@ -1,0 +1,34 @@
+name: Update Current Week
+
+# 매주 월요일 00:00(KST)에 README.md의 "이번 주 문제" 섹션을 자동 갱신합니다.
+# 오늘 날짜를 기준으로 몇 주차인지 계산해서 docs/PROBLEM_BANK.md 에서 해당 주차 문제를 가져옵니다.
+# 필요하면 Actions 탭에서 수동 실행(workflow_dispatch)도 가능합니다.
+
+on:
+  schedule:
+    - cron: "0 15 * * 0" # 매주 일요일 15:00 UTC = 월요일 00:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-current-week:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute current week and update README
+        run: node scripts/update-current-week.js
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: 이번 주 문제 자동 갱신"
+          git push
