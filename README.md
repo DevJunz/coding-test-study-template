@@ -109,11 +109,14 @@
 ## 📅 이번 주 문제
 
 <!-- CURRENT-WEEK:START (자동 생성 - 직접 수정하지 마세요. .github/workflows/update-current-week.yml 이 매주 월요일 자동 갱신합니다) -->
-**W01** ([`studies/week-01/README.md`](studies/week-01/README.md)) · 마감 2026-07-24(금) 23:59
+**W02** ([`studies/week-02/README.md`](studies/week-02/README.md)) · 마감 2026-07-31(금) 23:59
 
 | 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 1767 | 프로세서 연결하기 | D4 | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf |
+| 26071 | 블록 제거 게임 | D4 | https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZwmCVWq3uLHBIT3 |
+| 26070 | 보석 수집 로봇 | D4 | https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZwmBfua3q3HBIT3 |
+| 5658 | 보물상자 비밀번호 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo |
+| 5656 | 벽돌 깨기 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo |
 <!-- CURRENT-WEEK:END -->
 
 > 이 섹션은 매주 월요일 00:00(KST)에 GitHub Actions가 [`docs/PROBLEM_BANK.md`](docs/PROBLEM_BANK.md) 기준으로 자동 갱신합니다. 필요하면 Actions 탭에서 `update-current-week` 워크플로우를 수동 실행해도 됩니다.
