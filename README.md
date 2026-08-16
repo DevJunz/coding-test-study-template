@@ -109,14 +109,14 @@
 ## 📅 이번 주 문제
 
 <!-- CURRENT-WEEK:START (자동 생성 - 직접 수정하지 마세요. .github/workflows/update-current-week.yml 이 매주 월요일 자동 갱신합니다) -->
-**W03** ([`studies/week-03/README.md`](studies/week-03/README.md)) · 마감 2026-08-07(금) 23:59
+**W04** ([`studies/week-04/README.md`](studies/week-04/README.md)) · 마감 2026-08-14(금) 23:59
 
 | 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 5653 | 줄기세포배양 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo |
-| 5650 | 핀볼 게임 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo |
-| 5648 | 원자 소멸 시뮬레이션 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRFInKex8DFAUo |
-| 5644 | 무선 충전 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo |
+| 4131 | 활주로 건설 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJfikDKDXkDFAXc |
+| 4130 | 특이한 자석 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJfhgr6DTQDFAXc |
+| 4128 | 요리사 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJR5apqD0EDFAXc |
+| 4123 | 숫자 만들기 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJRxtsKDKIDFAXc |
 <!-- CURRENT-WEEK:END -->
 
 > 이 섹션은 매주 월요일 00:00(KST)에 GitHub Actions가 [`docs/PROBLEM_BANK.md`](docs/PROBLEM_BANK.md) 기준으로 자동 갱신합니다. 필요하면 Actions 탭에서 `update-current-week` 워크플로우를 수동 실행해도 됩니다.
