@@ -109,14 +109,14 @@
 ## 📅 이번 주 문제
 
 <!-- CURRENT-WEEK:START (자동 생성 - 직접 수정하지 마세요. .github/workflows/update-current-week.yml 이 매주 월요일 자동 갱신합니다) -->
-**W05** ([`studies/week-05/README.md`](studies/week-05/README.md)) · 마감 2026-08-21(금) 23:59
+**W06** ([`studies/week-06/README.md`](studies/week-06/README.md)) · 마감 2026-08-28(금) 23:59
 
 | 번호 | 문제 | 난이도 | 링크 |
 |:---:|:---|:---:|:---|
-| 4014 | 활주로 건설 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH |
-| 4013 | 특이한 자석 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH |
-| 4012 | 요리사 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH |
-| 4008 | 숫자 만들기 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH |
+| 2477 | 차량 정비소 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy |
+| 2383 | 점심 식사시간 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl |
+| 2382 | 미생물 격리 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl |
+| 2117 | 홈 방범 서비스 | - | https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu |
 <!-- CURRENT-WEEK:END -->
 
 > 이 섹션은 매주 월요일 00:00(KST)에 GitHub Actions가 [`docs/PROBLEM_BANK.md`](docs/PROBLEM_BANK.md) 기준으로 자동 갱신합니다. 필요하면 Actions 탭에서 `update-current-week` 워크플로우를 수동 실행해도 됩니다.
