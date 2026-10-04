@@ -109,7 +109,7 @@
 ## 📅 이번 주 문제
 
 <!-- CURRENT-WEEK:START (자동 생성 - 직접 수정하지 마세요. .github/workflows/update-current-week.yml 이 매주 월요일 자동 갱신합니다) -->
-이번 주(W10) 문제가 아직 `docs/PROBLEM_BANK.md`에 배정되지 않았습니다.
+이번 주(W11) 문제가 아직 `docs/PROBLEM_BANK.md`에 배정되지 않았습니다.
 [`docs/PROBLEM_BANK.md`](docs/PROBLEM_BANK.md)에서 문제를 배정하고 [`templates/WEEK_TEMPLATE.md`](templates/WEEK_TEMPLATE.md)로 주차 폴더를 만들어주세요.
 <!-- CURRENT-WEEK:END -->
 
